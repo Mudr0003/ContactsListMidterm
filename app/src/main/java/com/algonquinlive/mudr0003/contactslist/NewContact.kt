@@ -18,7 +18,6 @@ class NewContact : Activity() {
         Log.i(ACTIVITYNAME, "begin onCreate()");
 
 
-
         var MyAcceptbutton = findViewById<Button>(R.id.newAcceptButton)
 
 
@@ -42,13 +41,6 @@ class NewContact : Activity() {
             //startActivity(listActivity)
             this.finish()
 
-
-
-
-
-
-            //startActivity(newActivity);
-
         }
 
 
@@ -67,16 +59,6 @@ class NewContact : Activity() {
             this.finish()
 
         }
-
-
-
-
-
-
-
-
-
-
 
 
 

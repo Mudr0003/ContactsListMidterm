@@ -53,8 +53,7 @@ class EditContact : Activity() {
             listActivity.putExtra("index",index)
 
             setResult(RESULT_OK, listActivity)
-            //startActivity(listActivity)
-this.finish()
+            this.finish()
         }
 
 
@@ -72,14 +71,9 @@ this.finish()
             //transition to new activity
 
 
-
-
-
             var emailaddr = findViewById<TextView>(R.id.editEmail).text.toString()
 
             val addresses = arrayOf(emailaddr)
-
-
 
 
                         val intent = Intent(Intent.ACTION_SENDTO).apply {
@@ -90,11 +84,6 @@ this.finish()
                             startActivity(intent)
                         }
 
-
-
-            //setResult(RESULT_OK, listActivity)
-            //startActivity(listActivity)
-            //this.finish()
         }
 
 
@@ -106,12 +95,7 @@ this.finish()
             Log.i(ACTIVITYNAME, "User clicked the phone button")
 
 
-
             var phonenumber = findViewById<TextView>(R.id.editPhone).text.toString()
-
-
-
-
 
 
             val intent = Intent(Intent.ACTION_DIAL).apply {
@@ -121,21 +105,9 @@ this.finish()
                 startActivity(intent)
 
 
-
-
-
-            //setResult(RESULT_OK, listActivity)
-            //startActivity(listActivity)
-            //this.finish()
         }
 
     }
-
-
-
-
-
-
 
 
         Log.i(ACTIVITYNAME, "end onCreate()");

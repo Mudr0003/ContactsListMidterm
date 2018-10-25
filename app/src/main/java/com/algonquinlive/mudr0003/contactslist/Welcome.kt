@@ -32,10 +32,6 @@ class Welcome : Activity() {
         }
 
 
-
-
-
-
         Log.i(ACTIVITYNAME, "end onCreate()");
 
     }

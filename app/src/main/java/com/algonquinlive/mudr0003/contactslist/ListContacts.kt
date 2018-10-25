@@ -35,13 +35,12 @@ class ListContacts : Activity() {
         Log.i(ACTIVITYNAME, "begin onCreate()");
 
 
-
         var contact1 = Contact()
 
         contact1.first = "Robin"
-        contact1.last = "Mudry"
-        contact1.email = "mudr0003@algonquinlive.com"
-        contact1.phone = "613-829-0068"
+        contact1.last = "Cheese"
+        contact1.email = "123@algonquinlive.com"
+        contact1.phone = "613-829-1234"
 
 
         contacts[0] = contact1
@@ -56,9 +55,9 @@ class ListContacts : Activity() {
 
         var contact3 = Contact()
         contact3.first = "Sally"
-        contact3.last = "Wise"
+        contact3.last = "Smith"
         contact3.email = "sally@algonquinlive.com"
-        contact3.phone = "613-829-1234"
+        contact3.phone = "613-829-4321"
 
         contacts[2] = contact3
         contacts_count=3
@@ -78,8 +77,6 @@ class ListContacts : Activity() {
 
             startActivityForResult(newActivity,ADDINGCODE);
         }
-
-
 
 
 
@@ -152,11 +149,6 @@ class ListContacts : Activity() {
 
 
 
-
-
-
-
-
         }
     }
 
@@ -216,23 +208,9 @@ class ListContacts : Activity() {
                 return thisRow
         }
 
-        //override fun getItemId(position: Int): Long {
 
-            //  This is the database id of the item at position. For now, we aren’t using SQL, so just return the number: position.
-            // return position as Long
-         //   return 0
-        //}
 
     }
-
-
-
-
-
-
-
-
-
 
 
 
