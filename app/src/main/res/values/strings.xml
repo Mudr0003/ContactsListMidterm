@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="welcome_title">Contacts</string>
+    <string name="welcome_name">Robin Mudry</string>
+    <string name="welcome_version">Version 1.0</string>
+    <string name="welcome_continue_button">Continue</string>
+
+    <string name="list_title">View Contacts</string>
+    <string name="list_add_new_button">Add New Contact</string>
+
+    <string name="add_title">Add Contact</string>
+    <string name="add_firstname_hint">First Name</string>
+    <string name="add_lastname_hint">Last Name</string>
+    <string name="add_email_hint">email@host.com</string>
+    <string name="add_phone_hint">xxx-xxx-xxxx</string>
+    <string name="add_cancel_button">Cancel</string>
+    <string name="add_accept_button">Accept</string>
+
+    <string name="edit_title">Edit Contact</string>
+    <string name="edit_save_button">Save Changes</string>
+
+
+
+
+
+
+
+
+
+</resources>
